@@ -11,7 +11,7 @@ namespace FizzBuzz
                 FizzBuzz fizzBuzz = new FizzBuzz();
                 while (true)
                 {
-                    Console.WriteLine("Wprowadź liczbę. Jeżeli chcesz zakończyć wprowadź znak T.\n");
+                    Console.WriteLine("Wprowadź liczbę. Jeżeli chcesz zakończyć wprowadź znak T.");
                     Console.WriteLine(fizzBuzz.FizzBuzzOutput(GetValidateUserNumber())+"\n");                    
                 }
             }
